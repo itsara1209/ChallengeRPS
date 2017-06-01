@@ -14,6 +14,15 @@
 		8A97ED9D1EDF054600B5F1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A97ED9B1EDF054600B5F1F8 /* LaunchScreen.storyboard */; };
 		8A97EDA81EDF054700B5F1F8 /* ChallengeRPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97EDA71EDF054700B5F1F8 /* ChallengeRPSTests.swift */; };
 		8A97EDB31EDF054800B5F1F8 /* ChallengeRPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97EDB21EDF054800B5F1F8 /* ChallengeRPSUITests.swift */; };
+		8A97EDC21EDF164400B5F1F8 /* ChallengeRPS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8A97EDC11EDF164400B5F1F8 /* ChallengeRPS.txt */; };
+		8A97EDC51EDF18E300B5F1F8 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97EDC41EDF18E300B5F1F8 /* Challenge.swift */; };
+		8A97EDC71EDF191400B5F1F8 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97EDC61EDF191400B5F1F8 /* Input.swift */; };
+		8AE766BF1EDFB95300B94534 /* ChallengeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE766BE1EDFB95300B94534 /* ChallengeManager.swift */; };
+		8AE766C11EDFE7E400B94534 /* Test1_ChallengeRPS_LessThan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8AE766C01EDFE7E400B94534 /* Test1_ChallengeRPS_LessThan.txt */; };
+		8AE766C31EE0080A00B94534 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE766C21EE0080A00B94534 /* LocalFileManager.swift */; };
+		8AE766C61EE00BAE00B94534 /* GlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE766C51EE00BAE00B94534 /* GlobalFunction.swift */; };
+		8AE766CA1EE0225C00B94534 /* Test2_ChallengeRPS_MoreThan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8AE766C91EE0225C00B94534 /* Test2_ChallengeRPS_MoreThan.txt */; };
+		8AE766CC1EE025ED00B94534 /* Test3_ChallengeRPS_Invalid_Format.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8AE766CB1EE025ED00B94534 /* Test3_ChallengeRPS_Invalid_Format.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		8A97EDAE1EDF054800B5F1F8 /* ChallengeRPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeRPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A97EDB21EDF054800B5F1F8 /* ChallengeRPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeRPSUITests.swift; sourceTree = "<group>"; };
 		8A97EDB41EDF054800B5F1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A97EDC11EDF164400B5F1F8 /* ChallengeRPS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChallengeRPS.txt; sourceTree = "<group>"; };
+		8A97EDC41EDF18E300B5F1F8 /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		8A97EDC61EDF191400B5F1F8 /* Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		8AE766BE1EDFB95300B94534 /* ChallengeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeManager.swift; sourceTree = "<group>"; };
+		8AE766C01EDFE7E400B94534 /* Test1_ChallengeRPS_LessThan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test1_ChallengeRPS_LessThan.txt; sourceTree = "<group>"; };
+		8AE766C21EE0080A00B94534 /* LocalFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		8AE766C51EE00BAE00B94534 /* GlobalFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
+		8AE766C91EE0225C00B94534 /* Test2_ChallengeRPS_MoreThan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test2_ChallengeRPS_MoreThan.txt; sourceTree = "<group>"; };
+		8AE766CB1EE025ED00B94534 /* Test3_ChallengeRPS_Invalid_Format.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test3_ChallengeRPS_Invalid_Format.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,10 @@
 		8A97ED911EDF054500B5F1F8 /* ChallengeRPS */ = {
 			isa = PBXGroup;
 			children = (
+				8AE766C41EE00BA200B94534 /* Utility */,
+				8AE766BD1EDFB93F00B94534 /* Manager */,
+				8A97EDC31EDF18CC00B5F1F8 /* Model */,
+				8A97EDC01EDF15EF00B5F1F8 /* Resource */,
 				8A97ED921EDF054500B5F1F8 /* AppDelegate.swift */,
 				8A97ED941EDF054600B5F1F8 /* ViewController.swift */,
 				8A97ED961EDF054600B5F1F8 /* Main.storyboard */,
@@ -123,6 +145,43 @@
 				8A97EDB41EDF054800B5F1F8 /* Info.plist */,
 			);
 			path = ChallengeRPSUITests;
+			sourceTree = "<group>";
+		};
+		8A97EDC01EDF15EF00B5F1F8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8A97EDC11EDF164400B5F1F8 /* ChallengeRPS.txt */,
+				8AE766C01EDFE7E400B94534 /* Test1_ChallengeRPS_LessThan.txt */,
+				8AE766C91EE0225C00B94534 /* Test2_ChallengeRPS_MoreThan.txt */,
+				8AE766CB1EE025ED00B94534 /* Test3_ChallengeRPS_Invalid_Format.txt */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8A97EDC31EDF18CC00B5F1F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A97EDC41EDF18E300B5F1F8 /* Challenge.swift */,
+				8A97EDC61EDF191400B5F1F8 /* Input.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AE766BD1EDFB93F00B94534 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8AE766BE1EDFB95300B94534 /* ChallengeManager.swift */,
+				8AE766C21EE0080A00B94534 /* LocalFileManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8AE766C41EE00BA200B94534 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8AE766C51EE00BAE00B94534 /* GlobalFunction.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A97ED9D1EDF054600B5F1F8 /* LaunchScreen.storyboard in Resources */,
+				8AE766CA1EE0225C00B94534 /* Test2_ChallengeRPS_MoreThan.txt in Resources */,
+				8A97EDC21EDF164400B5F1F8 /* ChallengeRPS.txt in Resources */,
+				8AE766C11EDFE7E400B94534 /* Test1_ChallengeRPS_LessThan.txt in Resources */,
 				8A97ED9A1EDF054600B5F1F8 /* Assets.xcassets in Resources */,
+				8AE766CC1EE025ED00B94534 /* Test3_ChallengeRPS_Invalid_Format.txt in Resources */,
 				8A97ED981EDF054600B5F1F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A97ED951EDF054600B5F1F8 /* ViewController.swift in Sources */,
+				8A97EDC51EDF18E300B5F1F8 /* Challenge.swift in Sources */,
+				8AE766C61EE00BAE00B94534 /* GlobalFunction.swift in Sources */,
+				8AE766BF1EDFB95300B94534 /* ChallengeManager.swift in Sources */,
+				8AE766C31EE0080A00B94534 /* LocalFileManager.swift in Sources */,
+				8A97EDC71EDF191400B5F1F8 /* Input.swift in Sources */,
 				8A97ED931EDF054500B5F1F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +573,7 @@
 				8A97EDB91EDF054800B5F1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A97EDBA1EDF054800B5F1F8 /* Build configuration list for PBXNativeTarget "ChallengeRPSTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +582,7 @@
 				8A97EDBC1EDF054800B5F1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A97EDBD1EDF054800B5F1F8 /* Build configuration list for PBXNativeTarget "ChallengeRPSUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +591,7 @@
 				8A97EDBF1EDF054800B5F1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
